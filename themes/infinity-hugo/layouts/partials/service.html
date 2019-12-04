@@ -1,0 +1,29 @@
+{{ if .Site.Params.service.enable }}
+    {{"<!-- Service Section -->" | safeHTML}}
+    <section id="service" class="service section">
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    {{ with .Site.Params.service.title }}
+                        <h2 style="color: #a31f34;">{{ . }}</h2>
+                    {{ end }}
+                    {{ with .Site.Params.service.subtitle }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+                {{ range .Site.Params.service.serviceItem }}
+                    <div class="col-md-6 col-md-3 wow" data-wow-delay="{{ .delay }}">
+                        <div class="about-ppl">
+                            <i class="{{ .icon }}"></i>
+                            {{ with .img }}
+                            <img class='dongyi' src="{{ . }}" alt="person">
+                            {{ end }}
+                            <h3>{{ .title }}</h3>
+                            <p>{{ .description }}</p>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ end }}

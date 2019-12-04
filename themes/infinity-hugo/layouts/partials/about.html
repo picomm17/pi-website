@@ -1,0 +1,50 @@
+{{ if .Site.Params.about.enable }}
+    {{"<!-- About Section -->" | safeHTML}}
+    <section id="about" class="section about bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                    <div class="content">
+                        <div class="sub-heading">
+                        {{ with .Site.Params.about.heading }}
+                            <h3>{{ . }}</h3>
+                        {{ end }}
+                        </div>
+                        <ul class='about-description'>
+                            <li>
+                                There are a few big milestones in every MIT student's life: CPW, ring delivery, graduation...but don’t let it end there. In the summer of 2020, 3.1415... years after graduation, we are all going to meet in Las Vegas to celebrate our Pi Reunion!
+                            </li>
+                            <li>
+                                We will use this website to keep you up to date with news on Pi Reunion. Feel free to contact us at <a href='mailto:picomm17@mit.edu'>picomm17@mit.edu</a>. Our infinite connection site is at <a href='http://2017.alumclass.mit.edu'>2017.alumclass.mit.edu</a>.
+                            </li>
+                            <li style="font-weight: bold">
+                                Please complete the Pi Reunion Survey by Dec 2, 2019.
+                            </li>
+                            <li>
+                                Events and Registration are coming soon!
+                            </li>
+                        </ul>
+                        <!-- {{ with .Site.Params.about.description }}
+                            <p class='about-description'>{{ . | markdownify }}</p>
+                        {{ end }} -->
+                    </div>
+                </div>
+                <!-- <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="about-slider">
+                        {{ range .Site.Params.about.sliderItem }}
+                            <img src="{{ .image }}" alt="slider-image">
+                        {{ end }}
+                    </div>
+                </div> -->
+                <div class="col-md-5 col-sm-12 wow">
+                    <div class="about-slider">
+                        <img src="images/vegasSignTribute.png" alt="slider-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideshow"></div>
+
+    </section>
+{{ end }}

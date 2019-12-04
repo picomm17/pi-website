@@ -1,0 +1,124 @@
+baseURL = "https://picomm17.github.io/" 
+languageCode = "en-us"
+title = "MIT 2017 Pi Reunion"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        # logo = "images/gitlab.jpg"
+        home = "Home"
+        about = "About"
+        service = "Committee"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/p2.jpg"
+        title       = "MIT 2017 Pi Reunion"
+        subtitle    = "The official page for MIT 2017 Pi Reunion, please use this website for updates"
+        btnText     = "Scroll Down"
+        countdownYear = "2020"
+        countdownMonth = "07"
+        countdownDay  = "20"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "About Pi Reunion"
+        description = "There are a few big milestones in every MIT student's life: CPW, ring delivery, graduation...but don’t let it end there. In the summer of 2020, 3.1415... years after graduation, we are all going to meet in Las Vegas to celebrate our Pi Reunion! <br> We will use this website to keep you up to date with news on Pi Reunion. Feel free to contact us at <a href='mailto:picomm17@mit.edu'>picomm17@mit.edu</a>. Our infinite connection site is at <a href='http://2017.alumclass.mit.edu'>2017.alumclass.mit.edu</a>.<br>Events and Registration are coming soon!"
+
+        [[params.about.sliderItem]]
+            image   = "images/about/mit.png"
+        [[params.about.img1]]
+            image   = "images/about/2.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/3.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "Your Team"
+        subtitle    = "As your Pi Committee starts to plan the best 3.14-year reunion that we can, it is important that we gauge your interests. We need your input so that we can make this Pi Reunion the best fit for you! Feel free to reach out to any of us."
+
+        [[params.service.serviceItem]]
+            img    = "images/people/sina.jpg"
+            title   = "Sina Booeshaghi (Co-Chair)"
+            description = "A south Florida native and avid tea drinker, Sina currently resides in Pasadena California and is a 3rd year PhD student at Caltech. While at MIT he majored in course 18 and 2, was a member of the Kappa Sigma fraternity, and ran Tea with Teachers.  His mission is to make Pi Reunion the most well attended Pi yet! (He/him)"
+
+        [[params.service.serviceItem]]
+            img     = "images/people/andres.jpg"
+            title   = "Andres Alvarez (Co-Chair)"
+            description = "Andres graduated course 22 and was an active member of Phi Kappa sigma, the MIT Energy Club, ANS and GEL. He recently moved to Portland, OR where he works as an origination analyst at an international renewable energy company. He is no stranger to large event planning and is dedicated to making the 2017 pi reunion the highlight event of 2020. (He/him)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/sravya.jpg"
+            title   = "Sravya Vishnubhatla (Hotels)"
+            description = "Sravya graduated course 6-3 and 15 and was part of Kappa Alpha Theta and MIT Mirchi. She currently is working on Surface Neo and Windows10X as a Product Manager at Microsoft and is excited to organize an awesome Pi Reunion. In her free time, she’s part of several dance companies, choreographing and performing in off-Broadway productions. (She/her)"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # use delay for reveal items one by one
+            img    = "images/people/rachel.png"
+            title   = "Rachel Adenekan (Events: Food)"
+            description = "Rachel majored in course 2 and minored in course 21M at MIT.  She is a PhD student at Stanford studying how we can control wearable robots in order to aid humans with movement disorders.  When she’s not running experiments, Rachel tends her garden, dabbles in culinary arts, volunteers with at-risk young moms in East Palo Alto, and travels."
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # use delay for reveal items one by one
+            img     = "images/people/elisa.jpg"
+            title   = "Elisa Kurzban (Events: Shows)"
+            description = "Elisa is from San Antonio originally but now lives in New York City. She graduated course 18 and was actively involved in Alpha Phi, intramural basketball, Tech Callers (sorry), and various OME initiatives. Now, you can find Elisa working at Bain & Company and dabbling in basketball, board games, rock climbing, and gymnastics. Elisa loves event planning and is excited to help make Pi amazing! (She/her)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/piper.jpg"
+            title   = "Piper Lim (Events: Outdoors)"
+            description = "Piper majored in course 2 and minored in 21A. At MIT, she lived on 2nd East in East Campus, was the 2016 president of EC, and a member of DormCon. Piper currently works in SoCal as a mechanical design & test engineer on VTOL passenger aircraft. Her hobbies are always all over the place, but include backpacking, watercolor painting, setting things literally on fire, and hand-making outdoor gear (She/her/they/them)"
+
+        [[params.service.serviceItem]]
+            img     = "images/people/wei.jpg"
+            title   = "Wei Low (Events: Bars)"
+            description = "Wei graduated 6-2 with a minor in Theatre Arts. At MIT, they lived in East Campus (whooaa PUTZ) and were part of Kappa Alpha Theta. They currently work as a software developer and an aerial yoga instructor in Seattle. You’ll find Wei in the local fringe theatre running tech or defying gravity in aerial silks or hoop. Wei is excited to make this Pi the littest, yeetest ever!! (She/her/they/them)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/joe.png"
+            title   = "Joseph Figura (Logistics)"
+            description = "Joe is from the suburbs of Chicago and now lives in San Francisco, where he designs and builds small satellites to bring connectivity to the billions of people who don’t have access to the internet. He graduated course 16 and 8, where he was a member of Zeta Psi, Heavyweight Crew, and miscellaneous aerospace extracurriculars. Joe runs, climbs, bikes, and reads. He’s always appreciated a well-run happy hour and is excited for the opportunity to make Pi Reunion excellent. (He/him)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/libby.png"
+            title   = "Libby Koolik (Finance)"
+            description = "Libby is a Senior Air Quality consultant with Ramboll in San Francisco. She did her undergraduate degree in course 12 and her master’s in course 1. At MIT, she lived in Simmons Hall and the Alpha Chi Omega house. Now, she lives in the San Francisco Bay Area, where she enjoys visiting craft breweries and hanging out with her cat. She hopes to make Pi Reunion a fun and inviting experience for the entire class of 2017! (She/her)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/steph.png"
+            title   = "Stephanie Guo (Communication)"
+            description = "Steph is from Houston, TX originally but lives in Boston now, working as a Biz Ops Analyst at Tripadvisor, where she happily eats free lunch and breakfast everyday and plays with a lot of cute puppies.  She studied Course 2A-15 at MIT and was an active member of the Alpha Phi Sorority, the Track & Field team, the Lacrosse team, Resonance Acapella group, Design for America, and the Committee of Student Support and Wellness.  She loves to run and play sports, read, and travel when she can.  Steph believes we can make this Pi Reunion the best one yet!!! :) (She/her)"
+
+        [[params.service.serviceItem]]
+            img    = "images/people/andrew.jpg"
+            title   = "Andrew Xia (Webmaster)"
+            description = "Andrew is the webmaster for the 2017 alumni council. He is currently a Machine Learning Engineer at Lime, pursuing his transit oriented dreams. He was course 6-2 and 18 at MIT, lived in EC and Pilam, and spent a year in Chile after his MEng."
+
+        [[params.service.serviceItem]]
+            img    = "images/people/andres_p.jpg"
+            title   = "Andres Perez (Head of Ads)"
+            description = "Andres is a Software Engineer at Facebook and gives us free Facebook advertising credit. He lived in East Campus at MIT and was 6-2."
+    
+    
+    # Call to Action Section
+    #[params.cta]
+    #    enable      = true
+    #    bg          = "images/call-to-action.jpg"
+    #    title       = "Subscribe to our mailing list"
+    #    subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+    #[params.contact]
+    #    enable      = true
+    #    title       = "Get In Touch"
+    #    subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
