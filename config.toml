@@ -112,7 +112,7 @@ theme = "infinity-hugo"
         [[params.service.serviceItem]]
             img    = "images/people/andres_p.jpg"
             title   = "Andres Perez (Head of Ads)"
-            description = "Andres is a Software Engineer at Facebook and gives us free Facebook advertising credit. He lived in East Campus at MIT and was 6-2."
+            description = "Andres is a Production Engineer at Facebook and gives us free Facebook advertising credit. He lived in East Campus at MIT and was 6-3."
     
     
     # Call to Action Section
