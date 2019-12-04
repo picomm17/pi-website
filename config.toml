@@ -39,6 +39,10 @@ theme = "infinity-hugo"
         [[params.about.sliderItem]]
             image   = "images/about/2.jpg"
 
+    # FAQ Section
+    [params.about2]
+        enable = true
+
     
     # Service Section
     [params.service]
