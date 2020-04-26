@@ -18,17 +18,17 @@ theme = "infinity-hugo"
         enable      = true
         bg          = "images/p2.jpg"
         title       = "MIT 2017 Pi Reunion"
-        subtitle    = "July 10-12, 2020, Las Vegas, NV. Please use this website for updates!"
+        subtitle    = "July 9-11, 2021, Las Vegas, NV. Please use this website for updates!"
         btnText     = "Scroll Down"
-        countdownYear = "2020"
+        countdownYear = "2021"
         countdownMonth = "07"
-        countdownDay  = "10"
+        countdownDay  = "9"
 
     # About Section
     [params.about]
         enable      = true
         heading     = "About Pi Reunion"
-        description = "There are a few big milestones in every MIT student's life: CPW, ring delivery, graduation...but don’t let it end there. In the summer of 2020, 3.1415... years after graduation, we are all going to meet in Las Vegas to celebrate our Pi Reunion! <br> We will use this website to keep you up to date with news on Pi Reunion. Feel free to contact us at <a href='mailto:picomm17@mit.edu'>picomm17@mit.edu</a>. Our infinite connection site is at <a href='http://2017.alumclass.mit.edu'>2017.alumclass.mit.edu</a>.<br>Events and Registration are coming soon!"
+        description = "There are a few big milestones in every MIT student's life: CPW, ring delivery, graduation...but don’t let it end there. In the summer of 2021, 3.1415... years after graduation, we are all going to meet in Las Vegas to celebrate our Pi Reunion! <br> We will use this website to keep you up to date with news on Pi Reunion. Feel free to contact us at <a href='mailto:picomm17@mit.edu'>picomm17@mit.edu</a>. Our infinite connection site is at <a href='http://2017.alumclass.mit.edu'>2017.alumclass.mit.edu</a>.<br>Events and Registration are coming soon!"
 
         [[params.about.sliderItem]]
             image   = "images/about/mit.png"
